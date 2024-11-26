@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>Бронювання столика</title>
+        <title>Головна</title>
+		<link rel='stylesheet' href='style.css'/>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <div class="container">
+        <h1>Бронювання столика</h1>
+        <form action="#" method="post">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+380123456789" required>
+
+            <label for="date">Дата:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Час:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Кількість гостей:</label>
+            <select id="guests" name="guests" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+            <label for="wishes">Додаткові побажання:</label>
+            <textarea id="wishes" name="wishes" rows="4" placeholder="Ваші побажання..."></textarea>
+
+            <button type="submit">Забронювати</button>
+        </form>
+    </div>
+        <header>
+            <h1>Група ІВЕ-24-1</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="list.html">Список групи</a></li>
+                <li><a href="schedule.html">Розклад</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+            </ul>
+        </nav>
+        <main>
+            <aside id="usefulLinks">
+                <h2>Корисні посилання</h2>
+                <ul>
+                    <li><a href='https://nung.edu.ua'>Сайт ІФНТУНГ</a></li>
+                    <li><a href='https://dekanat.nung.edu.ua'>Розклад</a></li>
+                    <li><a href='https://dn.nung.edu.ua'>Система дистанційного навчання</a></li>
+                </ul>
+            </aside>
+            <article>
+                <h2>Розклад групи на тиждень</h2>
+				<div class="table-container">
+   <table border="1">
+                <thead>
+<tr>
+    <th>Номер пари</th>
+    <th>Години</th>
+    <th>Понеділок</th>
+    <th>Вівторок</th> 
+    <th>Середа</th>
+    <th>Четвер</th>
+    <th>П'ятниця</th>
+</tr>
+                </thead>
+<tbody>
+<tr>
+    <td>1</td>
+    <td>08:00-09:20</td>
+    <td>Вища математика (Л)
+доцент Криштопа Людмила Іванівна 0.409.ауд.</td>
+    <td></td>
+    <td>Вища математика (Пр)
+доцент Криштопа Людмила Іванівна 0.422.ауд.</td>
+    <td>Вища математика (Пр)
+доцент Криштопа Людмила Іванівна 0.409.ауд.</td>
+    <td>Вища математика (Л)
+доцент Криштопа Людмила Іванівна 0.409.ауд.</td>
+    </tr> 
+    <tr>
+    <td>2</td>
+    <td>09:30-10:50</td>
+    <td>Фізика (Л)
+професор Галущак Мар‘ян Олексійович 4.301.ауд.</td>
+    <td>Засоби вимірювальної техніки (Л)
+доцент Яворський Андрій Вікторович 9.206.ауд.</td>
+    <td>Вступ до спеціальності (Л)
+доцент Цих Віталій Сергійович 9.206.ауд.</td>
+    <td>Основи академічного письма (Л)
+Потік МГТ-24-1, ІВЕ-24-1, ІС-24-1
+доцент Венгринюк Мирослава Іванівна 5.307.ауд.</td>
+    <td>Основи академічного письма (Л)
+Потік МГТ-24-1, ІВЕ-24-1, ІС-24-1
+доцент Венгринюк Мирослава Іванівна 5.212.ауд.</td>
+    </tr>  
+    <tr>
+    <td>3</td>
+    <td>11:00-12:20</td>
+    <td>Фізика (Лаб)
+професор Галущак Мар‘ян Олексійович 4.314.ауд.</td>
+    <td>Вища математика (Пр)
+доцент Криштопа Людмила Іванівна 0.409.ауд.</td>
+    <td>Інформаційно-комунікаційні технології (Л)
+професор Лютак* Ігор Зіновійович 5.506.ауд.</td>
+    <td>Фізика (Лаб)
+професор Галущак Мар‘ян Олексійович 4.314.ауд.</td>
+    <td>Засоби вимірювальної техніки (Лаб)
+асистент Сорока Назар-Андрій Юрійович 9.117.ауд.</td>
+   </tr>  
+    <tr>
+    <td>4</td>
+    <td>12:50-14:10</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Основи академічного письма (Пр)
+доцент Венгринюк Мирослава Іванівна 0.409.ауд.</td>
+   </tr>  
+        </table>
+	</div>
+            </article>
+        </main>
+        <footer>
+            <div class="footer-contacts">
+                <div class="social-info">
+                    <ul>
+                        <li><a class="social-link" href="https://www.facebook.com/IFNTUOG/?locale=uk_UA"><img src="C:/Users/dmitr/Downloads/facebook.png"/></a></li>
+                        <li><a class="social-link" href="https://www.instagram.com/ifntuog/"><img src="C:/Users/dmitr/Downloads/instagram.png"/></a></li>
+                        <li><a class="social-link" href="https://www.tiktok.com/discover/ifntuog"><img src="C:/Users/dmitr/Downloads/tiktok.png"/></a></li>
+                        <li><a class="social-link" href="https://www.youtube.com/channel/UCYdrqFzK6wiczy4APixYy3A"><img src="C:/Users/dmitr/Downloads/youtube.png"/></a></li>
+                    </ul>
+                </div>
+        </div>
+        </footer>
+    </body>
+</html>
